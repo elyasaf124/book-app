@@ -1,0 +1,57 @@
+.bookTable {
+  width: 30%;
+  border-collapse: collapse;
+  font-size: 14px;
+  display: flex;
+  padding: 0 30px;
+}
+
+.bookTable td {
+  max-width: 350px;
+  padding: 8px;
+  border-bottom: 1px solid #ccc;
+}
+
+.bookTableContainer {
+  border-left: 1px solid rgba(0, 0, 0, 0.373);
+  margin-top: 50px;
+  padding: 10px;
+}
+
+.table-header {
+  font-weight: bold;
+  background-color: #f2f2f2;
+}
+
+.descContainerz {
+  word-wrap: break-word;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.bookBtn {
+  border: none;
+  padding: 10px 30px;
+  font-weight: bold;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.bookBtn.add {
+  background-color: green;
+}
+.bookBtn.delete {
+  background-color: red;
+}
+
+.imgConfirmBook {
+  width: 174px;
+  height: 232px;
+}

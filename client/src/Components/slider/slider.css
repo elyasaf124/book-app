@@ -1,0 +1,76 @@
+.sliderContainer {
+  position: relative;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.imgSliderContainer {
+  display: flex;
+  width: 100vw;
+}
+
+.imgSlider {
+  display: none;
+  height: 450px;
+}
+
+.imgSlider.active {
+  display: block;
+  width: 100%;
+  animation-name: fade;
+  animation-duration: 2.5s;
+  /* z-index: 9999999; */
+}
+@keyframes fade {
+  from {
+    opacity: 0.8;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.arrowContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btnSlider {
+  position: absolute;
+  background-color: black;
+  color: white;
+  border: none;
+  font-size: 58px;
+  background-color: inherit;
+  cursor: pointer;
+}
+
+.btnSlider.left {
+  position: absolute;
+  left: 20px;
+}
+
+.btnSlider.right {
+  position: absolute;
+  right: 20px;
+}
+
+.circleContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.circle {
+  width: 15px;
+  height: 15px;
+  color: white;
+  border: 1px solid #063f82;
+  border-radius: 50%;
+}
+
+.circle.active {
+  background-color: #063f82;
+}

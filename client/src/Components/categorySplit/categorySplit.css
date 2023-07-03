@@ -1,0 +1,121 @@
+.allSplit {
+  /* width: 100vw; */
+  position: relative;
+  margin: 0;
+  padding: 0;
+  max-width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.categorySplit {
+  width: 80%;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+/* .cardsContainer {
+  display: flex;
+  flex-direction: row;
+} */
+
+.allCards {
+  display: flex;
+  transform: translate3d(0px, 0px, 0px);
+  transition: all 1.5s ease 0s;
+  max-width: 3400px;
+}
+
+.categorySplitContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 45px;
+}
+
+.categorySplitContainer::before {
+  content: "";
+  width: 100%;
+  position: absolute;
+  background-color: #dedede;
+  left: 0;
+  right: 0;
+  height: 1.1px;
+}
+
+.split {
+  text-align: center;
+  width: 100%;
+  font-size: 38px;
+  position: relative;
+}
+
+.textCategory {
+  background-color: white;
+  z-index: 1;
+  padding: 0 80px;
+  color: #0c3e89;
+  font-weight: 500;
+}
+
+.displayAll {
+  /* width: 100%; */
+  font-size: 20px;
+  background-color: white;
+  position: absolute;
+  left: 0;
+  border: 1px solid #0c3e89;
+  display: inline-block;
+  padding: 2px 20px;
+  z-index: 0;
+}
+
+.arrow {
+  position: absolute;
+  left: 0;
+  z-index: 1000;
+}
+
+.cardsContainer {
+  display: flex;
+  /* justify-content: center; */
+  position: relative;
+  overflow: hidden;
+}
+
+.allCards.active {
+  transform: translate3d(1367px, 0px, 0px);
+  transition: all 1.5s ease 0s;
+}
+
+.arrows {
+  position: absolute;
+  top: 50%;
+  width: 90%;
+  z-index: 1;
+}
+
+.arrowsContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon {
+  font-size: 52px;
+  border: 1px solid;
+  color: white;
+  background-color: rgba(128, 128, 128, 0.536);
+  border-radius: 50%;
+  padding: 5px;
+  cursor: pointer;
+}

@@ -1,0 +1,147 @@
+.displayBook {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.displayBookContainer {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.pathContainer {
+  width: 100%;
+  text-align: start;
+  background: #f9f2f2;
+  font-size: 12px;
+  padding: 5px 0;
+  margin-top: 30px;
+}
+
+.pathAtag {
+  color: #007bff;
+  cursor: pointer;
+}
+
+.pathAtag:hover {
+  text-decoration: underline;
+}
+
+.bookContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.imgBook {
+  padding-left: 15px;
+}
+
+.descContainer {
+  width: 50%;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.bookTitle {
+  padding: 0;
+  margin: 0;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+.desc {
+  font-family: "David";
+  font-size: 12pt;
+  text-align: justify;
+  font-weight: 600;
+}
+
+.auther {
+  font-size: 20px;
+}
+
+.nav-cstm {
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+  color: #212529;
+  border-bottom: 1px solid #afafaf;
+  padding-bottom: 15px;
+}
+
+.aTag {
+  color: #007bff;
+  font-weight: 400;
+}
+
+.buyContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f5f5f5;
+  gap: 20px;
+  padding: 45px 28px 28px 28px;
+  margin-top: 15px;
+}
+
+.priceWeb {
+  font-weight: normal;
+  padding: 0;
+  margin-bottom: 0;
+  font-size: 1.75rem;
+}
+
+.delivery-condition {
+  font-size: 12px;
+}
+
+.sale-stampaContainer {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  background-color: rgba(228, 4, 4, 0.9);
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  padding: 3px 10px 3px 7px;
+}
+
+.sale-stampa {
+  font-size: 14px;
+  color: white;
+  font-weight: 600;
+}
+
+.addToCartBtnBookContainer {
+  width: 100%;
+}
+
+.addToCartBtnBook {
+  color: white;
+  border: none;
+  background-color: #4067a1;
+  font-size: 26px;
+  padding: 10px 35px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.delivery-condition {
+  color: #222222;
+  font-family: Arial, "sans-serif";
+  font-size: 8.5pt;
+  width: 100%;
+  margin-top: 15px;
+}

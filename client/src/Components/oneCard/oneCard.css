@@ -1,0 +1,90 @@
+.bigCard {
+  width: 280px;
+  border-right: 1px solid rgb(225, 216, 216);
+}
+
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bookItemContainer {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.imgCard {
+  width: 180px;
+  max-width: 180px;
+  max-height: 261px;
+}
+
+.imgCard:hover {
+  transform: scale(1.1);
+}
+
+.titleBook {
+  font-size: 20px;
+  color: #0c3e89;
+}
+
+.autherBook {
+  font-size: 14px;
+  color: rgb(57, 55, 55);
+  font-weight: 800;
+}
+
+.priceContainer {
+  text-align: center;
+  width: 60%;
+  font-size: 18px;
+  margin-top: 30px;
+  position: relative;
+}
+
+.bookPrice1 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 50%;
+  color: #0c3e89;
+}
+
+.bookPriceSale {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 50%;
+  border-left: 1px solid #525252;
+  color: red;
+}
+
+.btnContainer {
+  cursor: pointer;
+}
+
+.addToCartBtn {
+  background-color: #4067a1;
+  cursor: pointer;
+  color: white;
+  border: none;
+  font-size: 18px;
+  padding: 5px 10px;
+  width: 180px;
+}
+
+.addToCartBtn:hover {
+  background-color: red;
+}
+
+.addToCartBtnSuccessfully {
+  background-color: green;
+}
+
+.addToCartBtnSuccessfully:hover {
+  background-color: green;
+}

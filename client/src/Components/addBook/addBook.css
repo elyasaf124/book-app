@@ -1,0 +1,23 @@
+.addBook {
+  width: 100%;
+}
+.addBookContainer {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.addBookForm {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.textLabel {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: start;
+}

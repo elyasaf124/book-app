@@ -1,0 +1,13 @@
+.logo-container {
+  position: relative;
+  width: 100%;
+  /* left: 811px; */
+  text-align: center;
+  margin-top: 5px;
+}
+
+.logo-text {
+  position: relative;
+  top: -60px;
+  font-size: larger;
+}

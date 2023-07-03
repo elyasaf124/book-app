@@ -1,0 +1,209 @@
+.header {
+  width: 100%;
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(238, 243, 250, 1) 34%,
+    rgba(164, 191, 228, 1) 100%
+  );
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+}
+.headerContainer {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.contect {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navBar-right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  list-style: none;
+  font-size: 18px;
+  padding-top: 20px;
+  padding-right: 0;
+  cursor: pointer;
+}
+
+.socialNetworksIcons {
+  display: flex;
+  gap: 30px;
+}
+
+.loginText {
+  margin-left: 30px;
+}
+
+.connectContainer {
+  display: flex;
+  margin-left: 10px;
+}
+
+.loginText.connect {
+  margin-left: 10px;
+}
+
+.navBar-left {
+  display: flex;
+  font-size: 1rem;
+  list-style: none;
+  align-items: center;
+  gap: 30px;
+  cursor: pointer;
+}
+
+.buttonNav {
+  border-radius: 0;
+  font-size: 18px;
+  /* padding-top: 8px;
+  padding-left: 8px; */
+}
+
+.logoCategory {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  /* margin-bottom: 80px; */
+}
+
+.li {
+  display: flex;
+}
+
+.editIcon {
+  display: flex;
+  color: green;
+  font-size: 32px;
+}
+
+.logo {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.category {
+  width: 25%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  font-size: 24px;
+  font-weight: 700;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.manuIconContainer {
+  display: flex;
+  align-items: center;
+  color: #1133c4;
+}
+
+.categoryText {
+  color: #1133c4;
+}
+
+.empty {
+  width: 25%;
+  height: 10px;
+}
+
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.search {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.searchInputContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.inputSearch {
+  border: 1px solid #9a9a9a;
+  margin-right: 20px;
+  padding: 7px 15px;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-top: 0px;
+}
+
+.searchIcon {
+  position: absolute;
+  left: 10px;
+  font-size: 28px;
+  color: blue;
+}
+
+.cartIconContainer {
+  display: flex;
+  position: relative;
+  width: 32px;
+  height: 32px;
+  background-color: red;
+  border-radius: 50%;
+  /* padding: 8px; */
+  align-items: center;
+  justify-content: center;
+}
+
+.cartIcon {
+  font-size: 26px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.notfication {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0c3e89;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  position: absolute;
+  left: 26px;
+  top: -8px;
+}
+
+.numNotfiactio {
+  color: white;
+}
+
+.navLiat {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  gap: 20px;
+  padding-right: 0;
+}
+
+.msg-container {
+  display: flex;
+}
+.msg-header {
+  width: 100vw;
+  text-align: center;
+  background-color: #063f82;
+  font-size: 1rem;
+  color: white;
+  padding: 10px;
+  letter-spacing: 1.2px;
+}

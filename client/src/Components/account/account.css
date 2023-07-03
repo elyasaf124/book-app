@@ -1,0 +1,113 @@
+.account {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  /* align-items: center; */
+  width: 100%;
+}
+
+.titleContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.accountContainer {
+  width: 80%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.formAccount {
+  width: 40%;
+  line-height: 1.5;
+}
+.accountTitle {
+  text-align: start;
+  font-size: 48px;
+  display: block;
+  color: #004489;
+  font-weight: 300;
+  width: 80%;
+}
+
+.labelContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.labelFormAccount {
+  font-size: 18px;
+  font-weight: 500;
+  color: #212529;
+}
+
+.inputFormAccount {
+  width: 65%;
+  border: none;
+  border-bottom: 1px solid #3a54d6;
+  outline: none;
+  font-size: 22px;
+}
+
+.formAccountBtn {
+  font-size: 22px;
+  padding: 5px 8px;
+  margin-top: 20px;
+  background-color: #004489;
+  color: white;
+}
+
+.orderandResetPassword {
+  margin-right: 200px;
+}
+
+.historyOrderContainer {
+  margin-bottom: 100px;
+}
+
+.titleText {
+  font-size: 22px;
+  color: #004489;
+  margin: 0;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.aTag {
+  color: #0435fcfe;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.updatePassword {
+  margin-top: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.312);
+  padding: 10px;
+}
+
+.updatePasswordContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.labelUpdatePass {
+  width: 55%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.updatePasswordInput {
+  outline: none;
+}
