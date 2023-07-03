@@ -22,7 +22,7 @@ function Header() {
 
     useEffect(() => {
         let totalQuantity = 0;
-        cartQuantity.forEach((item) => {
+        cartQuantity?.forEach((item) => {
             totalQuantity += item.quantity;
         });
         setQuantity(totalQuantity);
