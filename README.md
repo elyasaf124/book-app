@@ -11,7 +11,7 @@ Backend
     Clone this repository.
     Navigate to the backend directory: cd backend.
     Install the required dependencies: npm install.
-    Start the backend server: npm run dev.
+    Start the backend server: npm start.
     The backend server will run on port 3000.
 
 Frontend
@@ -19,9 +19,9 @@ Frontend
     Clone this repository.
     Navigate to the client directory: cd client.
     Install the required dependencies: npm install.
-    Start the frontend development server: npm run dev.
+    Start the frontend development server: npm start.
     The frontend development server will run on port 3001.
-    Change url to http://127.0.0.1:3001
+    
 
 User Instructions
 
