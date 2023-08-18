@@ -21,7 +21,7 @@ Frontend
     Install the required dependencies: npm install.
     Start the frontend development server: npm run dev.
     The frontend development server will run on port 3001.
-    Change url to http://127.0.0.1:3002
+    Change url to http://127.0.0.1:3001
 
 User Instructions
 
