@@ -22,12 +22,11 @@ dotenv.config({ path: __dirname + `/config.env` });
 export let webOrigin = '';
 if (process.env.NODE_ENV === "development") {
     console.log("dev");
-    webOrigin = process.env.WEB_APP_URL_DEV
+    webOrigin = [process.env.WEB_APP_URL_DEV, process.env.WEB_APP_URL_DEV_ONE]
 } else {
     console.log("prod!!");
     webOrigin = process.env.WEB_APP_URL_PROD
 }
-console.log(webOrigin)
 
 const corsOptions = {
     credentials: true,
